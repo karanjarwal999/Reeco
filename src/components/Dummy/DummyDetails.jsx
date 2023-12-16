@@ -8,6 +8,7 @@ import { IoIosSnow } from "react-icons/io";
 import { TbBrandValorant } from "react-icons/tb";
 import { WiCloud } from "react-icons/wi";
 import { LuCake } from "react-icons/lu";
+import { Heading } from "@chakra-ui/react";
 
 function DummyDetails() {
   return (
@@ -61,7 +62,8 @@ box-sizing: border-box;
       margin-bottom: 5px;
     }
     h3{
-      margin: 0px;
+      font-weight: 700;
+      font-size: 1.2rem;
     }
     div{
       padding: 0px;

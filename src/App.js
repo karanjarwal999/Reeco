@@ -1,15 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar';
-import DummyOrderUI from './components/Dummy/DummyOrderUI';
-import ShowItems from './components/ShowItems';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <DummyOrderUI />
-      <ShowItems />
+      <Home/>
     </div>
   );
 }

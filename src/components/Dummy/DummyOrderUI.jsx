@@ -29,6 +29,7 @@ const OrderUI = styled.div`
     text-align: start;
     padding: 10px;
     padding-bottom: 0px;
+    margin-top: 60px;
 
     p {
       margin: 0px;
@@ -44,9 +45,11 @@ const OrderUI = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 10px;
 
       h2{
-          margin: 10px 0px;
+        font-size: 1.4rem;
+         font-weight: 700;
       }
 
       .dummyOrder_ButtonDIv {

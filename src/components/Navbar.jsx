@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { FiShoppingCart } from "react-icons/fi";
+import { Heading } from "@chakra-ui/react";
 
 function Navbar() {
   return (
-    <div style={{ backgroundColor: "#1e633f" }}>
+    <div style={{ backgroundColor: "#1e633f", position:'fixed', width:'100%',top:'0' }}>
       <Nav>
         <ul>
-          <h1>Reeco</h1>
+          <Heading as='h1'>Reeco</Heading>
           <li>Store</li>
           <li>Orders</li>
           <li>Analytics</li>
@@ -27,7 +28,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   margin: auto;
-  padding: 0px 10px;
+  padding: 5px 10px;
   justify-content: space-between;
 
   ul {
@@ -42,6 +43,7 @@ const Nav = styled.nav`
       font-size: 2rem;
       margin-top: 0px;
       margin-bottom: 0px;
+      padding: 5px 0px;
     }
   }
   div {
